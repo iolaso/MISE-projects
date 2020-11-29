@@ -1,0 +1,1 @@
+cmd_/home/root/Buses_entrega/Acelerometro/acelerometro.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/root/Buses_entrega/Acelerometro/acelerometro.ko /home/root/Buses_entrega/Acelerometro/acelerometro.o /home/root/Buses_entrega/Acelerometro/acelerometro.mod.o

@@ -1,0 +1,54 @@
+
+<html>
+        <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <title>Testar código binario</title>
+                 <script>
+                        function myFunction(val) {
+                                resul =  Math.floor( ( Math.random() * (Math.pow(2,val-1))) + (Math.pow(2,val-1)));
+                                document.ft.naleat.value = resul;
+                        }
+                 </script>
+        </head>
+        <body>
+                <form name="ft" method="post" action="testar.php">
+                <center>
+                        <fieldset>
+                                <legend>CODIFICAR EN BINARIO: </legend>
+                                <table>
+                                        <center> <br>
+                                        <tr>
+                                                el número aleatorio: <input readonly name="naleat" size="5" maxlength="5">
+                                        </tr>
+                                        <tr>
+                                                <br> <br>
+                                                <small> Nº de bits a utilizar: </small>
+                                                <br> <input type="range" min="1" max="10" value="5" onchange="myFunction(this.value)">
+                                                <sup><pre>  1  2  3  4  5  6  7  8  9  10 </pre> </sup>
+                                        </tr>
+                                        <tr>
+                                                <td> <br> en binario: <br> <br>
+                                                <input type="checkbox" name="bitcode9" />
+                                                <input type="checkbox" name="bitcode8" />
+                                                &nbsp;
+                                                <input type="checkbox" name="bitcode7" />
+                                                <input type="checkbox" name="bitcode6" />
+                                                <input type="checkbox" name="bitcode5" />
+                                                <input type="checkbox" name="bitcode4" />
+                                                &nbsp;
+                                                <input type="checkbox" name="bitcode3" />
+                                                <input type="checkbox" name="bitcode2" />
+                                                <input type="checkbox" name="bitcode1" />
+                                                <input type="checkbox" name="bitcode0" />
+                                                <small><sup><pre>  9    8      7    6    5    4       3    2    1    0 </pre></sup> </small>
+                                                </td><br>
+                                        </tr>
+                                </center>
+                                </table>
+                                <br>
+                                <input type="submit" value="Comprobar"/>
+                        </fieldset>
+                </center>
+                </form>
+        </body>
+</html>

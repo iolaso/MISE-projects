@@ -1,0 +1,1 @@
+cmd_/home/root/Buses_entrega/Joystick/main.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/root/Buses_entrega/Joystick/main.ko /home/root/Buses_entrega/Joystick/main.o /home/root/Buses_entrega/Joystick/main.mod.o
