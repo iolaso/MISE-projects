@@ -2,7 +2,7 @@
 Proyecto: Proyecto_final_G6_v6
 Fichero: Main_MISE_G6_v6.c
 
-Grupo: G6    Autores: Pablo San Jose Burgos
+Grupo: G6    Autores: Iñigo Olaso Altzuri
                       Jose Angel Castan
 	Fecha: 2017-X-15
     Last Revision: 2017-XII-10
